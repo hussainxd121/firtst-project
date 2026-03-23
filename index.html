@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar | Innovate the Future</title>
+    <meta name="description" content="Experience next-level innovation with our state-of-the-art digital platform for modern businesses.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="logo">Stellar</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact" class="btn-nav">Get Started</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Shaping the <span>Future</span> of Digital.</h1>
+                <p class="hero-subtitle">Experience next-level innovation with our state-of-the-art platform designed to elevate your business.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary" id="btn-start">Start Free Trial</a>
+                    <a href="#features" class="btn btn-secondary" id="btn-learn">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-graphics">
+                <div class="glass-card main-card">
+                    <div class="circle c1"></div>
+                    <div class="circle c2"></div>
+                    <div class="card-content">
+                        <h3>Dashboard Overview</h3>
+                        <div class="chart-mockup">
+                            <div class="bar h-80"></div>
+                            <div class="bar h-40"></div>
+                            <div class="bar h-60"></div>
+                            <div class="bar h-90"></div>
+                            <div class="bar h-50"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="section-header">
+                <h2>Why Choose Us</h2>
+                <p>Powerful tools tailored for modern teams.</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-card" id="feat-speed">
+                    <div class="icon">🚀</div>
+                    <h3>Lightning Fast</h3>
+                    <p>Optimized for speed and performance, delivering instant results.</p>
+                </div>
+                <div class="feature-card" id="feat-secure">
+                    <div class="icon">🔒</div>
+                    <h3>Secure by Design</h3>
+                    <p>Enterprise-grade security built directly into the core.</p>
+                </div>
+                <div class="feature-card" id="feat-ui">
+                    <div class="icon">✨</div>
+                    <h3>Intuitive UI</h3>
+                    <p>A beautiful interface that you and your team will love using.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Stellar Inc. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Simple script for nav background on scroll
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if(window.scrollY > 50) {
+                nav.style.background = 'rgba(15, 23, 42, 0.9)';
+                nav.style.boxShadow = '0 4px 30px rgba(0, 0, 0, 0.1)';
+            } else {
+                nav.style.background = 'rgba(15, 23, 42, 0.7)';
+                nav.style.boxShadow = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
